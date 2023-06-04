@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.List;
 
-public class B1 {
+public class Lab5_1 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Nhap so tu nhien n: ");
@@ -10,10 +10,10 @@ public class B1 {
 		
 		ArrayList<Integer> arrl = new ArrayList<>();
 		int tmp = n;
-		while (du> 0) {
+		while (tmp> 0) {
 			int s = tmp % 10;
 			cs.add(s);
-			 /= 10;
+			 tmp/= 10;
 		}
 		
 		boolean check = true;
